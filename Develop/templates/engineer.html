@@ -1,7 +1,7 @@
 <div class="card employee-card">
     <div class="card-header">
-        <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>{{ role }}</h3>
+        <h2 class="card-title" placeholder="YOUR_NAME_HERE">{{ name }}</h2>
+        <h3 class="card-title" placeholder="WORD"><i class="fas fa-glasses mr-2"></i>{{ role }}</h3>
     </div>
     <div class="card-body">
         <ul class="
@@ -9,9 +9,9 @@
             <li class="
             -item">ID: {{ id }}</li>
             <li class="
-            -item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+            -item">Email: <a href="mailto:{{ email }}" placeholder="QWERTY@ASDF.COM">{{ email }}</a></li>
             <li class="
-            -item">GitHub: <a href="https://github.com/{{ github }}" target="_blank" rel="noopener noreferrer">{{ github }}</a></li>
+            -item">GitHub: <a href="https://github.com/{{ github }}" target="_blank" rel="noopener noreferrer" placeholder="myGitHubUserName">{{ github }}</a></li>
         </ul>
     </div>
 </div>
