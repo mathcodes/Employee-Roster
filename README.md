@@ -1,7 +1,7 @@
 
 # OOP-LLC
 ​
-![badge](https://img.shields.io/badge/jest-None-blue) ![badge](https://img.shields.io/badge/inquirer-None-orange)
+![badge](https://img.shields.io/badge/Dependency-Jest-blue) ![badge](https://img.shields.io/badge/Dependency-Inquirer-orange)
 ​
 ## Description
 Use this project to generate an employee roster including a manager and as many engineers and interns as needed.
