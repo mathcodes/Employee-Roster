@@ -43,9 +43,9 @@ async function init() {
         const employees = [];
 
         // Prompt for manager
-        const { name, id, email, imageUrl, officeNumber } = await promptManager();
+        const { name, id, email, officeNumber, imageUrl } = await promptManager();
         // Push manager into array
-        employees.push(new Manager(name, id, email, imageUrl, officeNumber));
+        employees.push(new Manager(name, id, email, officeNumber, imageUrl));
 
         // Prompt for team members
         const response = await promptTeamMembers();
@@ -83,27 +83,41 @@ function promptManager() {
         .prompt([{
                 type: "input",
                 message: "Enter the manager's name:",
-                name: "name"
+                name: "name",
+                validate: answer => {
+                    if (answer !== "") {
+                        return true;
+                    } else
+                        return "Please enter at least one character.";
+                }
             },
+            // /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
             {
                 type: "number",
-                message: "Enter the manager's ID:",
-                name: "id"
+                message: "Enter the manager's ID number:",
+                name: "id",
             },
             {
                 type: "input",
                 message: "Enter the manager's email:",
-                name: "email"
+                name: "email",
+                validate: function(email) {
+
+                    valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+
+                    if (valid) {
+                        console.log(" Nice email address!");
+                        return true;
+                    } else {
+                        console.log("Please enter a valid email.")
+                        return false;
+                    }
+                }
             },
             {
                 type: "number",
                 message: "Enter the manager's office number:",
                 name: "officeNumber"
-            },
-            {
-                type: "input",
-                message: "Enter the manager's image url:",
-                name: "imageUrl"
             }
         ])
 }
@@ -121,26 +135,32 @@ async function promptTeamMembers() {
                     },
                     {
                         type: "number",
-                        message: "Enter the engineer's ID:",
+                        message: "Enter the engineer's ID number:",
                         name: "id"
                     },
                     {
                         type: "input",
                         message: "Enter the engineer's email:",
-                        name: "email"
+                        name: "email",
+                        validate: function(email) {
+
+                            valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+
+                            if (valid) {
+                                return true;
+                            } else {
+                                console.log("Please enter a valid email.")
+                                return false;
+                            }
+                        }
                     },
                     {
                         type: "input",
                         message: "Enter the engineer's github username:",
                         name: "github"
-                    },
-                    {
-                        type: "input",
-                        message: "Enter the engineer's image url:",
-                        name: "imageUrl"
                     }
-                ]).then(function({ name, id, email, imageUrl, github }) {
-                    teamMembers.push(new Engineer(name, id, email, imageUrl, github));
+                ]).then(function({ name, id, email, github }) {
+                    teamMembers.push(new Engineer(name, id, email, github));
                     return promptTeamMembers();
                 })
         } else if (role === "Intern") {
@@ -152,26 +172,33 @@ async function promptTeamMembers() {
                     },
                     {
                         type: "number",
-                        message: "Enter the intern's ID:",
+                        message: "Enter the intern's ID number:",
                         name: "id"
                     },
                     {
                         type: "input",
                         message: "Enter the intern's email:",
-                        name: "email"
+                        name: "email",
+                        validate: function(email) {
+
+                            valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+
+                            if (valid) {
+                                return true;
+                            } else {
+                                console.log("Please enter a valid email.")
+                                return false;
+                            }
+                        }
                     },
                     {
                         type: "input",
                         message: "Enter the intern's school:",
                         name: "school"
-                    },
-                    {
-                        type: "input",
-                        message: "Enter the intern's image url:",
-                        name: "imageUrl"
                     }
-                ]).then(function({ name, id, email, imageUrl, school }) {
-                    teamMembers.push(new Intern(name, id, email, imageUrl, school));
+
+                ]).then(function({ name, id, email, school }) {
+                    teamMembers.push(new Intern(name, id, email, school));
                     return promptTeamMembers();
                 })
         } else {

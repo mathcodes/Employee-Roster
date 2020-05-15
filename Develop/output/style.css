@@ -6,7 +6,6 @@
 
 html {
     --color-black: black;
-    --color-blue: #2F89FC;
     --color-green: rgb(23, 75, 10);
     --color-black: #000000;
     --font-main: 'Open Sans', sans-serif;
@@ -16,15 +15,15 @@ html {
 
 body {
     font-family: var(--font-main);
-    background-color: white;
-    background-image: url(https://github.com/mathcodes/OOP-LLC/blob/master/Assets/Paddys.jpg?raw=true);
+    background-color: rgb(23, 75, 10);
     background-size: cover;
+    opacity: 0.95;
 }
 
 header {
     padding: 20px;
-    background-color: var(--color-green);
-    color: var(--color-white);
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
 }
@@ -65,22 +64,24 @@ section {
 }
 
 .card-header {
-    height: 100px;
+    /* height: 100px; */
     background-color: var(--color-black);
     padding: 20px;
     display: flex;
     align-items: middle;
 }
 
-.card-image {
+
+/* .card-image {
     background-color: var(--color-blue);
 }
 
 .card-image img {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-}
+    width: 100px;
+    height: 100px;
+    border-width: thick;
+    border-color: rgb(23, 75, 10);
+} */
 
 .card-title {
     /* background-color: var(--color-blue); */
@@ -106,6 +107,8 @@ section {
 
 .card-body {
     padding: 20px;
+    background-blend-mode: lighten;
+    background-color: rgba(105, 105, 105, 0.465);
 }
 
 .card-info {
@@ -137,8 +140,8 @@ section {
 
 .card-item {
     font-size: 18px;
-    color: var(--color-blue);
-    /* font-weight: 700; */
+    /* color: var(--color-blue); */
+    font-weight: bolder;
 }
 
 .card-body a {
