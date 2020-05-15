@@ -22,8 +22,7 @@ Use this project to generate an employee roster including a manager and as many 
 The file generated will be named "team.html" and located in the output folder. 
 ​
 ## License
-Jest
-Inquirer
+NO licenses but as stated above, install both jest and inquirer!
 ​
 ## Contributing
 Thanks for stopping in and please contact me with any questions.
