@@ -1,13 +1,15 @@
 
-# OOP, LLC
+# OOP-LLC
 ​
-![badge](https://img.shields.io/badge/License-jest-orange)![badge](https://img.shields.io/badge/License-inquirer-blue)
+![badge](https://img.shields.io/badge/License-None-orange)
 ​
 ## Description
-Create an employee roster with a manager and as many engineers and interns as needed.
+Use this project to generate an employee roster including a manager and as many engineers and interns as needed.
 ​
+![badge](Assets\OOPLLC.png)
+
 ## Table of Contents
-- [OOP, LLC](#oop-llc)
+- [OOP-LLC](#oop-llc)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -17,13 +19,14 @@ Create an employee roster with a manager and as many engineers and interns as ne
 ``` npm install jest inquirer ``` 
 ​
 ## Usage
-Once users are finished with all the employees' info, the project will generate a `team.html` page in the `output` directory.
+The file generated will be named "team.html" and located in the output folder. 
 ​
 ## License
-MIT
+Jest
+Inquirer
 ​
 ## Contributing
-Feel free to request pulls and suggest changes!
+Thanks for stopping in and please contact me with any questions.
 ​
 ## Tests
 ``` npm run test ```
