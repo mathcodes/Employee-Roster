@@ -6,7 +6,8 @@
 ## Description
 Use this project to generate an employee roster including a manager and as many engineers and interns as needed.
 ​
-![badge](Assets\OOPLLC.png)
+
+![OOPLLC image](https://github.com/mathcodes/OOP-LLC/blob/master/Develop/Assets/OOPLLC-01-01.jpg?raw=true)
 
 ## Table of Contents
 - [OOP-LLC](#oop-llc)
