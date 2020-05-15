@@ -10,11 +10,10 @@ Use this project to generate an employee roster including a manager and as many 
 ![OOPLLC image](https://github.com/mathcodes/OOP-LLC/blob/master/Develop/Assets/OOPLLC-01-01.jpg?raw=true)
 
 ## Table of Contents
-- [OOP-LLC](#oop-llc)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Questions](#questions)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Questions](#questions)
  
 ## Installation
 ``` npm install jest inquirer ``` 
