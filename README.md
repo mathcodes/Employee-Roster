@@ -16,9 +16,8 @@ GIF showing how to run the project:
 
 ![OOPLLC gif](https://github.com/mathcodes/OOP-LLC/blob/master/Develop/Assets/OOPLLClg.gif)
 
-Trouble viewing the gif? Check out the video [HERE](https://www.youtube.com/watch?v=1gb0uLXVMhA&vq=hd1080).
+Trouble viewing the gif? Check out the video [HERE](https://www.youtube.com/watch_popup?v=1gb0uLXVMhA&vq=hd1080).
 
-&vq=hd1080
 ## Table of Contents
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
