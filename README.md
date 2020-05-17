@@ -10,7 +10,7 @@ Use this project to generate an employee roster including a manager and as many 
 
 Image of webpage created once you run the project in the terminal:
 
-![Image of Project][https://github.com/mathcodes/OOP-LLC/blob/master/Develop/Assets/OOPLLC.png]
+![Image of Project](https://github.com/mathcodes/OOP-LLC/blob/master/Develop/Assets/OOPLLC.png)
 
 GIF showing how to run the project:
 
