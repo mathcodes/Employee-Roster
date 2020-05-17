@@ -7,7 +7,11 @@
 Use this project to generate an employee roster including a manager and as many engineers and interns as needed.
 ​
 
-![OOPLLC image](https://github.com/mathcodes/OOP-LLC/blob/master/Develop/Assets/OOPLLC-01-01.jpg?raw=true)
+![OOPLLC gif](https://github.com/mathcodes/OOP-LLC/blob/master/Develop/Assets/OOPLLClg.gif)
+
+###Trouble viewing the gif? Check out the video:
+
+[![VIDEO](http://img.youtube.com/vi/1gb0uLXVMhA/0.jpg)](http://www.youtube.com/watch?v=1gb0uLXVMhA)
 
 ## Table of Contents
 - [Description](#description)
