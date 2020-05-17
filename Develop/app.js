@@ -106,10 +106,9 @@ function promptManager() {
                     valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
 
                     if (valid) {
-                        console.log(" Nice email address!");
                         return true;
                     } else {
-                        console.log("Please enter a valid email.")
+                        console.log("Please revise your email address so it is valid.")
                         return false;
                     }
                 }
