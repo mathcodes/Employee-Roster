@@ -19,9 +19,11 @@ GIF showing how to run the project:
 Trouble viewing the gif? Check out the video [HERE](https://www.youtube.com/watch_popup?v=1gb0uLXVMhA&vq=hd1080).
 
 ## Table of Contents
-- [Description](#description)
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
 - [Questions](#questions)
  
 ## Installation
@@ -41,8 +43,6 @@ Thanks for stopping in and please contact me with any questions.
 ​
 ## Questions
 If you have any questions about the repo, open an issue or contact [mathcodes](https://github.com/mathcodes) directly to <a href="mailto:jonpchristie@gmail.com">my email</a>.
-
-
 
 ![Image of Me](https://avatars0.githubusercontent.com/u/17928947?v=4)
 
