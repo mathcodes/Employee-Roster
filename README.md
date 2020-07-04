@@ -44,8 +44,6 @@ Thanks for stopping in and please contact me with any questions.
 ## Questions
 If you have any questions about the repo, open an issue or contact [mathcodes](https://github.com/mathcodes) directly to <a href="mailto:jonpchristie@gmail.com">my email</a>.
 
-![Image of Me](https://avatars0.githubusercontent.com/u/17928947?v=4)
-
 <img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="50px" height="50px" />
 
 __Jon Christie__ 
