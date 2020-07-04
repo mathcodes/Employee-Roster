@@ -46,4 +46,6 @@ If you have any questions about the repo, open an issue or contact [mathcodes](h
 
 ![Image of Me](https://avatars0.githubusercontent.com/u/17928947?v=4)
 
-__Jon Christie__ ([mathcodes](https://github.com/mathcodes))
+<img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="50px" height="50px" />
+
+__Jon Christie__ 
