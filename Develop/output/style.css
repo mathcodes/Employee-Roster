@@ -54,7 +54,7 @@ section {
 
 .employee-card {
     background-color: #A5ACAF;
-    width: 290px;
+    width: 20%;
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 20px;
@@ -64,7 +64,7 @@ section {
 }
 
 .card-header {
-    /* height: 100px; */
+    width: 90%;
     background-color: var(--color-black);
     padding: 20px;
     display: flex;
@@ -89,26 +89,29 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 18px;
+    margin-left: 5%;
+    margin-bottom: 2%;
 }
 
 .card-name {
-    color: var(--color-green);
-    font-size: 28px;
+    color: white;
+    font-size: 80%;
     font-weight: var(--font-medium);
 }
 
 .card-role {
     color: #ffffff;
     /* opacity: 0.5; */
-    font-size: 14px;
+    font-size: 50%;
     letter-spacing: 1.5px;
+    padding: 5px;
 }
 
 .card-body {
     padding: 20px;
     background-blend-mode: lighten;
     background-color: rgba(105, 105, 105, 0.465);
+    width: 20%;
 }
 
 .card-info {
@@ -145,13 +148,13 @@ section {
 }
 
 .card-body a {
-    color: #555555;
+    color: #222222;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .employee-card {
-        width: 100%;
+        width: 20%;
     }
 }
 
@@ -163,4 +166,81 @@ a {
 
 a {
     color: red;
+}
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 20%;
+    border: none;
+    /* text-align: left; */
+    outline: none;
+    /* font-size: 15px; */
+    transition: 0.4s;
+    padding: 20px;
+    background-blend-mode: lighten;
+    background-color: black;
+}
+
+.active,
+.accordion:hover {
+    background-color: rgb(23, 75, 10);
+}
+
+.panel {
+    display: none;
+    background-color: black;
+    overflow: hidden;
+}
+
+.card-role {
+    color: #ffffff;
+    /* opacity: 0.5; */
+    font-size: 50%;
+    letter-spacing: 1.5px;
+    padding: 5px;
+    width: 20%;
+}
+
+.card-body {
+    padding: 20px;
+    background-blend-mode: lighten;
+    background-color: black;
+    width: 90%;
+}
+
+.fadeIn-top {
+    top: 20%;
+}
+
+.accordion {
+    background-color: #eee;
+    color: rgb(23, 75, 10);
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: white;
+    cursor: pointer;
+    padding: 2px;
+    text-align: left;
+    width: 90%;
+    font-size: 2%;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion {}
+
+.panel {
+    width: 90%;
+    color: white;
+    display: none;
+    background-color: black;
+    overflow: hidden;
 }

@@ -5,20 +5,27 @@
             <div class="card-role">{{ role }}</div>
         </div>
     </div>
-    <div class="card-body">
-        <ul class="card-info">
-            <li class="card-info-item">
-                <div class="card-item-label">ID</div>
-                <div class="card-item">{{ id }}</div>
-            </li>
-            <li class="card-info-item">
-                <div class="card-item-label">EMAIL</div>
-                <div class="card-item"><a href="mailto:{{ email }}">{{ email }}</a></div>
-            </li>
-            <li class="card-info-item">
-                <div class="card-item-label">GITHUB</div>
-                <div class="card-item"><a href="https://github.com/{{ github }}" target="_blank">{{ github }}</a></div>
-            </li>
-        </ul>
+
+
+    <button class="accordion" width="100%"><i class='fas fa-arrow-down' style='font-size:24px'></i></button>
+    <div class="panel">
+        <div class="card-body">
+            <ul class="card-info">
+                <li class="card-info-item">
+                    <div class="card-item-label">ID</div>
+                    <div class="card-item">{{ id }}</div>
+                </li>
+                <li class="card-info-item">
+                    <div class="card-item-label">EMAIL</div>
+                    <div class="card-item"><a href="mailto:{{ email }}">{{ email }}</a></div>
+                </li>
+                <li class="card-info-item">
+                    <div class="card-item-label">GITHUB</div>
+                    <div class="card-item"><a href="https://github.com/{{ github }}" target="_blank">{{ github }}</a></div>
+                </li>
+            </ul>
+        </div>
     </div>
+
+
 </div>
